@@ -13,3 +13,4 @@ After following  the instructions you will have the basic functionality to run a
 1. Launch the scipt via `pnpm exec ts-node index.ts`
 2. `pnpm exec ts-node hello.ts`
 3. `pnpm exec ts-node -e 'console.log("Hello world!")'`
+4. `pnpm dev hello.ts`
