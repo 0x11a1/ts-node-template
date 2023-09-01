@@ -1,5 +1,7 @@
 import dayjs from "dayjs";
 import {hi} from "./hi";
+import dotenv from "dotenv";
+dotenv.config();
 
 const hello = () => {
     console.log("hello world...", dayjs().valueOf());
@@ -9,4 +11,4 @@ const hello = () => {
 hi();
 hello();
 
-console.log(process.env.Dev);
+console.log(process.env.TEST);
