@@ -8,7 +8,7 @@ After following  the instructions you will have the basic functionality to run a
 1. Clone this repo
 2. Initialize npm: `pnpm install`
 
-# e.g
+# example
 1. Launch the scipt via `pnpm exec ts-node index.ts`
 2. `pnpm exec ts-node hello.ts`
 3. `pnpm exec ts-node -e 'console.log("Hello world!")'`
