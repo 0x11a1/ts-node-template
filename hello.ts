@@ -1,10 +1,12 @@
-import dayjs from 'dayjs'
-import {hi} from './hi'
+import dayjs from "dayjs";
+import {hi} from "./hi";
 
-const hello = ()=>{
-    console.log('hello world...',dayjs().valueOf())
-    console.log(dayjs().format('YYYY-MM-DD HH:mm:ss'))
-}
+const hello = () => {
+    console.log("hello world...", dayjs().valueOf());
+    console.log(dayjs().format("YYYY-MM-DD HH:mm:ss"));
+};
 
-hi()
-hello()
+hi();
+hello();
+
+console.log(process.env.Dev);
