@@ -1,11 +1,16 @@
 {
-    "extends": "@tsconfig/node16/tsconfig.json",
+    "extends": "./node_modules/@tsconfig/node16/tsconfig.json",
     "ts-node": {
         "transpileOnly": true,
         "files": true,
         "compilerOptions": {}
     },
     "compilerOptions": {
-        "outDir": "dist"
-    }
+        "outDir": "dist",
+        "paths": {
+            "@/*": ["./src/*"]
+        }
+    },
+    "include": ["**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
 }
